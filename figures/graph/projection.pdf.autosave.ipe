@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.26">
+<info created="D:20230403201933" modified="D:20230523073643"/>
+<preamble>\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}</preamble>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="blue" value="0 0 1"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="green" value="0 1 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="75%" value="0.75"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="script" value="\scriptsize"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<ipestyle name="android-eclair-icons">
+<color name="Android Black" value="0"/>
+<color name="Android Blue" value="0.2 0.4 0.8"/>
+<color name="Android Dark Blue" value="0 0.2 0.6"/>
+<color name="Android Dark Gray" value="0.25"/>
+<color name="Android Dark Green" value="0.4 0.6 0"/>
+<color name="Android Gray" value="0.501"/>
+<color name="Android Green" value="0 0.8 0"/>
+<color name="Android Light Blue" value="0.4 0.6 1"/>
+<color name="Android Light Gray" value="0.749"/>
+<color name="Android Light Green" value="0.6 0.8 0.2"/>
+<color name="Android Light Orange" value="1 0.6 0"/>
+<color name="Android Orange" value="1 0.4 0"/>
+<color name="Android Red" value="0.8 0 0"/>
+<color name="Android White" value="1"/>
+<color name="Android Yellow" value="1 0.8 0"/>
+</ipestyle>
+<ipestyle name="latex-beamer">
+<color name="Beamer albatross added green" value="0.615 0.87 0.403"/>
+<color name="Beamer albatross added red" value="0.874 0.56 0.529"/>
+<color name="Beamer albatross added white" value="1"/>
+<color name="Beamer albatross added yellow" value="0.854 0.811 0.184"/>
+<color name="Beamer albatross alert block header text" value="0.792 0.266 0.211"/>
+<color name="Beamer albatross background" value="0 0.066 0.486"/>
+<color name="Beamer albatross block header" value="0 0.05 0.364"/>
+<color name="Beamer albatross block" value="0 0.058 0.439"/>
+<color name="Beamer albatross bullet" value="0.745 0.756 0.988"/>
+<color name="Beamer albatross covered bullet" value="0.105 0.141 0.56"/>
+<color name="Beamer albatross covered text" value="0.243 0.235 0.372"/>
+<color name="Beamer albatross example block header text" value="0.411 0.713 0.156"/>
+<color name="Beamer albatross header text" value="0.423 0.439 0.721"/>
+<color name="Beamer albatross outer 1" value="0 0.031 0.215"/>
+<color name="Beamer albatross outer 2" value="0 0.039 0.294"/>
+<color name="Beamer albatross outer 3" value="0 0.05 0.364"/>
+<color name="Beamer albatross text" value="0.917 0.89 0.521"/>
+<color name="Beamer beaver added blue" value="0.56 0.576 0.803"/>
+<color name="Beamer beaver added green" value="0.576 0.705 0.49"/>
+<color name="Beamer beaver added red" value="0.784 0.541 0.541"/>
+<color name="Beamer beaver alert block header text" value="0.643 0.156 0.156"/>
+<color name="Beamer beaver background" value="1"/>
+<color name="Beamer beaver block header text" value="0.192 0.223 0.682"/>
+<color name="Beamer beaver covered bullet" value="0.878 0.882 0.952"/>
+<color name="Beamer beaver covered text" value="0.894"/>
+<color name="Beamer beaver example block header text" value="0.227 0.486 0.054"/>
+<color name="Beamer beaver outer 1" value="0.85"/>
+<color name="Beamer beaver outer 2" value="0.925"/>
+<color name="Beamer beaver outer 3" value="0.949"/>
+<color name="Beamer beaver outer frame" value="0.552 0.098 0.098"/>
+<color name="Beamer beaver text" value="0"/>
+<color name="Beamer beetle added blue" value="0.705 0.725 0.796"/>
+<color name="Beamer beetle added green" value="0.541 0.65 0.47"/>
+<color name="Beamer beetle added grey" value="0.301"/>
+<color name="Beamer beetle added red" value="0.803 0.509 0.509"/>
+<color name="Beamer beetle alert block header text" value="0.737 0.129 0.133"/>
+<color name="Beamer beetle background" value="0.6"/>
+<color name="Beamer beetle covered bullet" value="0.658"/>
+<color name="Beamer beetle covered text" value="0.509"/>
+<color name="Beamer beetle example block header text" value="0.227 0.486 0.054"/>
+<color name="Beamer beetle header text" value="1"/>
+<color name="Beamer beetle outer 1" value="0.239 0.286 0.439"/>
+<color name="Beamer beetle outer 2" value="0.25 0.301 0.466"/>
+<color name="Beamer beetle outer 3" value="0.262 0.317 0.49"/>
+<color name="Beamer beetle text" value="0"/>
+<color name="Beamer crane added green" value="0.541 0.65 0.47"/>
+<color name="Beamer crane added orange" value="0.96 0.831 0.474"/>
+<color name="Beamer crane added red" value="0.803 0.509 0.509"/>
+<color name="Beamer crane alert block header" value="0.647 0.113 0.117"/>
+<color name="Beamer crane alert block" value="0.96 0.905 0.905"/>
+<color name="Beamer crane background" value="1"/>
+<color name="Beamer crane block header" value="0.937 0.733 0.18"/>
+<color name="Beamer crane block" value="0.984 0.929 0.768"/>
+<color name="Beamer crane bullet" value="0 0.047 0.29"/>
+<color name="Beamer crane covered bullet" value="0.878 0.882 0.952"/>
+<color name="Beamer crane covered text" value="0.894"/>
+<color name="Beamer crane example block header" value="0.168 0.364 0.039"/>
+<color name="Beamer crane example block" value="0.909 0.933 0.901"/>
+<color name="Beamer crane outer 1" value="0.941 0.756 0.223"/>
+<color name="Beamer crane outer 2" value="0.952 0.784 0.29"/>
+<color name="Beamer crane outer 3" value="0.956 0.807 0.368"/>
+<color name="Beamer crane text" value="0"/>
+<color name="Beamer default added blue" value="0.552 0.568 0.815"/>
+<color name="Beamer default added green" value="0.541 0.65 0.47"/>
+<color name="Beamer default added red" value="0.803 0.509 0.509"/>
+<color name="Beamer default alert block header" value="0.647 0.113 0.117"/>
+<color name="Beamer default alert block" value="0.96 0.905 0.905"/>
+<color name="Beamer default background" value="1"/>
+<color name="Beamer default block header" value="0.192 0.223 0.682"/>
+<color name="Beamer default block" value="0.913 0.913 0.949"/>
+<color name="Beamer default covered bullet" value="0.878 0.882 0.952"/>
+<color name="Beamer default covered text" value="0.894"/>
+<color name="Beamer default example block header" value="0.168 0.364 0.039"/>
+<color name="Beamer default example block" value="0.909 0.933 0.901"/>
+<color name="Beamer default light alert block header text" value="0.866 0.164 0.168"/>
+<color name="Beamer default light alert block header" value="0.956 0.807 0.807"/>
+<color name="Beamer default light alert block" value="0.976 0.905 0.905"/>
+<color name="Beamer default light background" value="1"/>
+<color name="Beamer default light block header text" value="0.4 0.415 0.76"/>
+<color name="Beamer default light block header" value="0.839 0.843 0.937"/>
+<color name="Beamer default light block" value="0.921 0.921 0.964"/>
+<color name="Beamer default light covered bullet" value="0.878 0.882 0.952"/>
+<color name="Beamer default light covered text" value="0.894"/>
+<color name="Beamer default light example block header text" value="0.243 0.509 0.074"/>
+<color name="Beamer default light example block header" value="0.823 0.898 0.8"/>
+<color name="Beamer default light example block" value="0.913 0.945 0.901"/>
+<color name="Beamer default light outer 1" value="0.76 0.764 0.901"/>
+<color name="Beamer default light outer 2" value="0.8 0.803 0.917"/>
+<color name="Beamer default light outer 3" value="0.839 0.843 0.937"/>
+<color name="Beamer default light text" value="0"/>
+<color name="Beamer default outer 1" value="0.094 0.109 0.341"/>
+<color name="Beamer default outer 2" value="0.145 0.168 0.509"/>
+<color name="Beamer default outer 3" value="0.192 0.223 0.682"/>
+<color name="Beamer default text" value="0"/>
+<color name="Beamer fly added blue" value="0.596 0.611 0.843"/>
+<color name="Beamer fly added default blue" value="0.192 0.223 0.682"/>
+<color name="Beamer fly added green" value="0.611 0.741 0.525"/>
+<color name="Beamer fly added grey" value="0.8"/>
+<color name="Beamer fly added red" value="0.866 0.564 0.564"/>
+<color name="Beamer fly alert block header text" value="0.737 0.129 0.133"/>
+<color name="Beamer fly background" value="0.6"/>
+<color name="Beamer fly covered bullet" value="0.658"/>
+<color name="Beamer fly covered text" value="0.509"/>
+<color name="Beamer fly example block header text" value="0.227 0.486 0.054"/>
+<color name="Beamer fly header text" value="1"/>
+<color name="Beamer fly outer" value="0.501"/>
+<color name="Beamer fly text" value="0"/>
+<color name="Beamer seagull added grey" value="0.85"/>
+<color name="Beamer seagull background" value="1"/>
+<color name="Beamer seagull block header" value="0.8"/>
+<color name="Beamer seagull block" value="0.901"/>
+<color name="Beamer seagull covered bullet" value="0.968"/>
+<color name="Beamer seagull covered text" value="0.862"/>
+<color name="Beamer seagull outer 1" value="0.701"/>
+<color name="Beamer seagull outer 2" value="0.749"/>
+<color name="Beamer seagull outer 3" value="0.8"/>
+<color name="Beamer seagull text" value="0"/>
+<color name="Beamer wolverine added blue" value="0.549 0.576 0.827"/>
+<color name="Beamer wolverine added green" value="0.639 0.772 0.572"/>
+<color name="Beamer wolverine added yellow" value="0.992 0.945 0.596"/>
+<color name="Beamer wolverine background" value="1"/>
+<color name="Beamer wolverine covered bullet" value="0.878 0.882 0.952"/>
+<color name="Beamer wolverine covered text" value="0.894"/>
+<color name="Beamer wolverine example block title" value="0.282 0.545 0.141"/>
+<color name="Beamer wolverine header text" value="0.098 0.152 0.65"/>
+<color name="Beamer wolverine outer 1" value="0.925 0.631 0.309"/>
+<color name="Beamer wolverine outer 2" value="0.949 0.737 0.18"/>
+<color name="Beamer wolverine outer 3" value="0.972 0.858 0.188"/>
+<color name="Beamer wolverine outer 4" value="0.98 0.89 0.188"/>
+<color name="Beamer wolverine text" value="0"/>
+</ipestyle>
+<page>
+<layer name="beta"/>
+<layer name="alpha"/>
+<view layers="beta alpha" active="beta"/>
+<path layer="beta" matrix="1.04002 0 0 1.04984 103.676 -13.5292" stroke="Beamer beaver text" fill="Beamer fly header text">
+146.01 494.698 m
+110.946 489.841
+64 464
+64 464
+64 464
+112 512
+146.01 494.698 c
+</path>
+<path matrix="1.04002 0 0 1.04984 103.676 -13.5292" stroke="Beamer beaver text" fill="Beamer crane added orange">
+64 464 m
+144 528
+208 432
+208 432
+208 432
+256 496
+330.359 489.248
+330.359 489.248
+330.359 489.248
+177.049 607.544
+64 464 c
+</path>
+<text matrix="1.19972 0 0 1.10865 78.8473 -52.4716" transformations="translations" pos="192 464" stroke="Beamer beaver text" type="label" width="14.801" height="11.764" depth="0" valign="baseline" size="LARGE" style="math">\mathcal{X}</text>
+<use name="mark/circle(sx)" pos="350 610" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -110 -27.4862" name="mark/circle(sx)" pos="350 610" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -20 -70" name="mark/circle(sx)" pos="350 610" size="large" stroke="black"/>
+<use matrix="1 0 0 1 40 -50" name="mark/circle(sx)" pos="350 610" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -80 -60" name="mark/circle(sx)" pos="350 610" size="large" stroke="black"/>
+<use name="mark/disk(sx)" pos="250 530" size="large" stroke="black"/>
+<use matrix="1 0 0 1 20 -12.656" name="mark/disk(sx)" pos="250 530" size="large" stroke="black"/>
+<path matrix="1 0 0 0.554735 20 225.99" stroke="black" arrow="normal/normal">
+250 580 m
+250 530 l
+</path>
+<path matrix="0.942346 0 0 0.942346 13.837 33.4394" stroke="black" arrow="normal/normal">
+240 580 m
+250 530 l
+</path>
+<use name="mark/disk(sx)" pos="340 560" size="large" stroke="black"/>
+<path matrix="0.896959 0 0 0.896959 35.5769 60.4178" stroke="black" arrow="normal/normal">
+350 610 m
+340 560 l
+</path>
+</page>
+</ipe>

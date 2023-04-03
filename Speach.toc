@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {1}{Введение}{2}{0}{1}
+\beamer@sectionintoc {2}{Постановка проблемы}{6}{0}{2}
+\beamer@sectionintoc {3}{Исследование методов}{8}{0}{3}
+\beamer@sectionintoc {4}{Среда моделирования}{16}{0}{4}
